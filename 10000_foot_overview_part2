@@ -46,34 +46,6 @@
 * X-Ray: To debug the application
 * Cloud9: its IDE, you can do your code in the browser, no need to IDE.
 
-----
 
-# 10000 Foot overview - Management Tools - Part 3
 
-## Management Tools
-* CloudWatch:
-* CloudFormation: solutions architect uses this service. It is a way of scripting infrastructure. Earlier, you had to buy physical server, load balancer etc. CloudFormation takes that job and make it very easy. You can reuse the same code to deploy at any other location. You can also opensource the work.
-* CloudTrail: Anything you do in the AWS cloud, it is basically triggering AWS to log the action in the CloudTrail. It is turned-on by default but stores data only for one week.
-* Config: AWS Config monitors the configuration of your entire AWS environment. 
-* OpsWork: for configuration of the environment
-* Service Catalog: Way of managing catalog of IT services. Fortune 500 companies generally use this service. Catalog service.
-* System Manager: Want to manage security patches across thousands of application, you can group your application.
-* Trusted Advisor: Difference between Trusted Advisor and inspector. It will give advise across multiple discipline, about security, across the services you don't use. It is like accountant who gives advise across several services.
-* Managed Services: AWS managed services
-
-## Media Services
-
-* Elastic Transcoder: It will resize the recordded videos so that it looks good on different services
-* MediaConvert: transcoder
-* MediaLIve: high quality video stream to broadcoast to TV
-* MediaPackage: Prepares and protect your videos
-* MediaStore: Optimize for media, to give live and on-demand services
-* Media Tailor: Targetted advertizing 
-
-## Machine Learning
-
-* SageMaker
-* Comprehend
-* DeepLens: Artificial camera which can finds out what is happening in front of the camera. Security... Deeplens is physical device
-* Lex: What powers alexa services
 
